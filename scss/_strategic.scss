@@ -1,0 +1,84 @@
+.strategic {
+    background: #FFFFFF;
+    padding-top: 100px;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        width: 620px;
+    }
+
+    &__title {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 65px;
+        letter-spacing: 0.02em;
+        color: #253D32;
+    }
+
+    &__text {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 40px;
+        color: #78847D;
+        width: 424px;
+        padding-top: 30px;
+    }
+
+    &__strech {
+        display: flex;
+        gap: 16px;
+        padding-top: 40px;
+    }
+
+    &__allow {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        text-decoration-line: underline;
+        color: #A3B938;
+        cursor: pointer;
+    }
+
+    &__right {
+        display: flex;
+        width: 620px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    &__card {
+        width: 254px;
+        height: 239px;
+        margin-bottom: 90px;
+    }
+
+    &__r__title {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        color: #253D32;
+        padding-top: 40px;
+    }
+
+    &__r__text {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #78847D;
+        padding-top: 25px;
+    }
+}

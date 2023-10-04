@@ -1,0 +1,58 @@
+.navbar {
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 55px;
+        padding-top: 40px;
+    }
+
+    &__start {
+        display: flex;
+    }
+
+    &__title {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        padding-left: 10px;
+    }
+
+    &__center {
+        display: flex;
+    }
+
+    &__menu {
+        display: flex;
+        gap: 52px;
+    }
+
+    &__items {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+    &__btn {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(237, 255, 129, 0.4);
+        border-radius: 116px;
+        padding: 18px 34px;
+        cursor: pointer;
+    }
+}

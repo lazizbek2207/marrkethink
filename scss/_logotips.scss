@@ -1,0 +1,11 @@
+.logotip {
+    height: 140px;
+    background: #F6FBF9;
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        gap: 130px;
+        padding-top: 54px;
+    }
+}

@@ -1,0 +1,70 @@
+.work {
+    background: #F6FBF9;
+    padding: 100px 0;
+    text-align: center;
+
+    &__title {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 65px;
+        letter-spacing: 0.02em;
+        color: #253D32;
+    }
+
+    &__text {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        color: #78847D;
+        padding-top: 30px;
+    }
+
+    &__images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        padding-top: 80px;
+    }
+
+    &__texts {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 123px;
+        padding-top: 55px;
+    }
+
+    &__titles {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 40px;
+        text-align: center;
+        color: #253D32;
+        width: 180px;
+    }
+
+    &__active {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 40px;  
+        text-align: center;
+        color: #253D32;
+        width: 200px;
+    }
+    &__strech{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+        gap: 16px;
+    }
+}
